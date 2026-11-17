@@ -7,3 +7,5 @@ COPY hello.java .
 RUN javac hello.java
 
 CMD ["java", "hello"]
+
+//docker ps -a
